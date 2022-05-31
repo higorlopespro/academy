@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../style.css">
+    <title>Gestor de Tráfego</title>
+</head>
+<body>
+    
+    <div class="shadow">
+        <nav class="nav">
+            <a href="../../index.html"><img src="../../img/logo-hl.png" class="logo"></a>
+            <button class="btn-mobile" onclick="toggle()">
+                <div class="burg">
+                    <div class="fatia"></div>
+                    <div class="fatia"></div>
+                    <div class="fatia"></div> 
+                </div>
+            </button>
+            <div id="menu">
+                <div class="view-mobile-responsive">
+                    <div class="close" onclick="toggle()"></div>
+                    <a href="../../index.html" class="link-menu">Home</a>
+                    <a href="https://bit.ly/38vG4Cy" class="link-menu">YouTube</a>
+                    <a href="https://bit.ly/3M1h97s" class="link-menu">Instagram</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+
+    <div class="box-banner">
+        <picture>
+            <source media="(max-width: 700px)" srcset="../../img/banner-CEL-02.png">
+           <img src="../../img/banner-02.png" class="banner"> 
+        </picture>
+    </div>
+    
+    <div class="container-cursos">
+        <section class="box-cursos">
+        <div class="cursos">
+            <div>
+                <a href="https://youtu.be/k5SrD9uYXB0"><img src="../../img/capa-GT-01.png" class="capa"></a>
+            </div>
+            <div>
+                <a href="https://youtu.be/6stoZyNW8po"><img src="../../img/capa-GT-02.png" class="capa"></a>
+            </div>
+            <div>
+                <a href="https://youtu.be/JWJKjZoyvK8"><img src="../../img/capa-GT-03.png" class="capa"></a>
+            </div>
+            <div>
+                <a href="https://youtu.be/zOgPSV4kCdE"><img src="../../img/capa-GT-04.png" class="capa"></a>
+            </div>
+            <div>
+                <a href="https://youtu.be/mB2sMgUko-o"><img src="../../img/capa-GT-05.png" class="capa"></a>
+            </div>
+        </div>
+        </section>  
+    </div>  
+
+    <section class="slider-mobile">
+                <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <a href="https://youtu.be/k5SrD9uYXB0"><img src="../../img/capa-GT-01.png" style="width:100%"></a>
+            <div class="text">Aula 01</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <a href="https://youtu.be/6stoZyNW8po"><img src="../../img/capa-GT-02.png" style="width:100%"></a>
+            <div class="text">Aula 02</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <a href="https://youtu.be/JWJKjZoyvK8"><img src="../../img/capa-GT-03.png" style="width:100%"></a>
+            <div class="text">Aula 03</div>
+            </div>
+
+            <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <a href="https://youtu.be/zOgPSV4kCdE"><img src="../../img/capa-GT-04.png" style="width:100%"></a>
+            <div class="text">Aula 04</div>
+            </div>
+
+            <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <a href="https://youtu.be/mB2sMgUko-o"><img src="../../img/capa-GT-05.png" style="width:100%"></a>
+            <div class="text">Aula 05</div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </section>
+
+    <script src="../../script.js"></script>
+
+</body>
+</html>
